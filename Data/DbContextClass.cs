@@ -13,10 +13,6 @@ namespace RabitMqProductAPI.Data
         {
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
         }
-        public DbSet<Product> Products
-        {
-            get;
-            set;
-        }
+        public DbSet<Product> Products { get; set;}
     }
 }
