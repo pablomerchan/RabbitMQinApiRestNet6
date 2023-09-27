@@ -1,0 +1,3 @@
+[submodule "RabbitMQProductConsoleApplication"]
+	path = RabbitMQProductConsoleApplication
+	url = https://github.com/pablomerchan/RabbitMQProductConsoleApplication.git
